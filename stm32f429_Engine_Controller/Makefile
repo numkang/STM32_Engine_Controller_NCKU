@@ -72,6 +72,11 @@ OBJS=	./system_stm32f4xx.o \
         $(ST)/src/stm32f4xx_adc.o \
         $(ST)/src/stm32f4xx_tim.o \
         ./main.o \
+        ./LED.o \
+        ./USART.o \
+        ./READ_PULSE.o \
+        ./WRITE_PWM.o \
+        ./READ_RX.o \
         $(STARTUP) 
         
 #Make all
